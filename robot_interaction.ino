@@ -2,7 +2,7 @@
 #include <LiquidCrystal_I2C.h>
 #include <Stepper.h>
 
-// 初始化 LCD1602 (I2C 地址為 0x27，16x2 顯示)
+//初始化 LCD1602 (I2C 地址為 0x27，16x2 顯示)
 LiquidCrystal_I2C lcd(0x27, 16, 2);
 
 // 定義步進馬達參數
