@@ -1,0 +1,57 @@
+# 忽略 Arduino 編譯輸出的檔案和目錄
+*.ino.*
+*.hex
+*.elf
+*.bin
+*.eep
+*.map
+*.sym
+*.lst
+*.o
+*.d
+*.a
+*.s
+*.cpp
+*.h
+*.log
+*.bak
+*.tmp
+*.swp
+*.swo
+*.DS_Store
+
+# 忽略 Arduino IDE 的設定檔案
+*.workspace
+*.code-workspace
+*.ino.cpp
+*.ino.d
+*.ino.elf
+*.ino.hex
+*.ino.bin
+*.ino.eep
+*.ino.map
+*.ino.sym
+*.ino.lst
+*.ino.o
+*.ino.a
+*.ino.s
+*.ino.h
+*.ino.log
+*.ino.bak
+*.ino.tmp
+*.ino.swp
+*.ino.swo
+
+# 忽略 Windows 系統檔案
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+System Volume Information/
+
+# 忽略其他不必要的檔案
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*.DS_Store
